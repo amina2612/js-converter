@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konverter mjernih jedinica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jvs.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <div class="naslov"><h1><span style="background-color: #8fc3c1">konverter mjernih jedinica</h2></span></div>
+
+    <div class="glavni">
+        <p style="padding-right:7px;color:#000;"><span style="background-color: #8fc3c1">dužina:</span></p>
+        <div>
+        <form>
+       <div class="form-group">
+           <input id="mInput" type="number" class="form-control"
+                placeholder="ukucajte dužinu...">   m     </div>
+      
+    </form>
+    <div id="output">
+        <div class="vr">
+            <div class="vr-blok">
+                <div id="km"></div> km
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+                <div id="cm"></div> cm
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+                <div id="dm"></div> dm
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+                <div id="mm"></div> mm
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+               ~ <div id="jard"></div> jard
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+              ~  <div id="stop"></div> stopa
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+               ~ <div id="mlj"></div> milja
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+                <div id="palac"></div> palac
+            </div>
+        </div>
+
+        <div class="vr">
+            <div class="vr-blok">
+                <div id="nano"></div> nm
+            </div>
+        </div>
+
+    </div> </div>
+
+    <p style="padding-right:7px;margin-left:-22px;color:#000;"><span style="background-color: #8fc3c1">masa:</span></p>
+
+    <div>
+    <form>
+   <div class="form-group">
+       <input id="kgInput" type="number" class="form-control"
+            placeholder="ukucajte masu...">   kg     </div>
+  
+</form>
+<div id="output2">
+    <div class="vr2">
+        <div class="vr-blok">
+            <div id="t"></div> t
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+            <div id="dag"></div> dag
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+            <div id="mg"></div> mg
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+            <div id="mikro"></div> μg
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+           ~ <div id="funt"></div> lbs
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+           ~ <div id="troyfunt"></div> troy lbs
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+           ~ <div id="oztroy"></div> oz troy
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+           ~ <div id="oz"></div> oz
+        </div>
+    </div>
+
+    <div class="vr2">
+        <div class="vr-blok">
+           ~ <div id="stone"></div> stone
+        </div>
+    </div>
+
+
+</div></div>
+
+<p style="padding-right:7px;margin-left:-25px;color:#000;"><span style="background-color: #8fc3c1">volumen:</span></p>
+<div style="margin-left:1px;">
+<form>
+<div class="form-group">
+   <input id="vInput" type="number" class="form-control"
+        placeholder="ukucajte volumen...">   m^3   </div>
+
+</form>
+<div id="output3">
+<div class="vr3">
+    <div class="vr-blok">
+        <div id="dm3"></div> dm^3
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+        <div id="cm3"></div> cm^3
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+        <div id="l"></div> l
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+        <div id="ml"></div> ml
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+      <div id="cl"></div> cl
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+      <div id="floz"></div> fl oz
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+     ~   <div id="gl"></div> us gallon
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+     ~   <div id="gl2"></div> gallon
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+     ~   <div id="st3"></div> stopa^3
+    </div>
+</div>
+
+<div class="vr3">
+    <div class="vr-blok">
+     ~   <div id="p3"></div> palac^3
+    </div>
+</div>
+
+
+</div> </div>
+
+
+
+<p style="padding-right:7px;margin-left:-25px;color:#000;"><span style="background-color: #8fc3c1">površina:</span></p>
+        <div>
+        <form>
+       <div class="form-group">
+           <input id="m2Input" type="number" class="form-control"
+                placeholder="ukucajte površinu...">   m^2     </div>
+      
+    </form>
+    <div id="output4">
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="km2"></div> km^2
+            </div>
+        </div>
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="ha2"></div> ha
+            </div>
+        </div>
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="dm2"></div> dm^2
+            </div>
+        </div>
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="cm2"></div> cm^2
+            </div>
+        </div>
+
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="ya2"></div> yd^2
+            </div>
+        </div>
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="ft2"></div> ft^2
+            </div>
+        </div>
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="sqin"></div> palac^2
+            </div>
+        </div>
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="mlj2"></div> milja^2
+            </div>
+        </div>
+
+
+        <div class="vr4">
+            <div class="vr-blok">
+                <div id="acr"></div> acre
+            </div>
+        </div>
+
+
+    </div> </div>
+
+
+    <p style="padding-right:7px;margin-left:-25px;color:#000;"><span style="background-color: #8fc3c1">brzina:</span></p>
+        <div>
+        <form>
+       <div class="form-group">
+           <input id="bInput" type="number" class="form-control"
+                placeholder="ukucajte brzinu...">   m/s    </div>
+      
+    </form>
+    <div id="output5">
+        <div class="vr5">
+            <div class="vr-blok">
+                <div id="kmh"></div> km/h
+            </div>
+        </div>
+
+        <div class="vr5">
+            <div class="vr-blok">
+                <div id="milja"></div> mph
+            </div>
+        </div>
+
+        <div class="vr5">
+            <div class="vr-blok">
+              ~  <div id="stopa"></div> fps
+            </div>
+        </div>
+
+        <div class="vr5">
+            <div class="vr-blok">
+              ~  <div id="cvor"></div> čvor(ova)
+            </div>
+        </div>
+
+        <div class="vr5">
+            <div class="vr-blok">
+              ~  <div id="svj"></div> brzina svjetlosti
+            </div>
+        </div>
+    </div> </div>
+
+<p style="padding-left:20px;padding-right:7px;margin-left:-29px;color:#000;"><span style="background-color: #8fc3c1">pritisak:</span></p>
+        <div>
+        <form>
+       <div class="form-group">
+           <input id="pInput" type="number" class="form-control"
+                placeholder="ukucajte površinu...">   Pa     </div>
+      
+    </form>
+    <div id="output6">
+        <div class="vr6">
+            <div class="vr-blok">
+                <div id="atm"></div> atm
+            </div>
+        </div>
+
+        <div class="vr6">
+            <div class="vr-blok">
+                <div id="bar"></div> bar
+            </div>
+        </div>
+
+        <div class="vr6">
+            <div class="vr-blok">
+                <div id="kPa"></div> kPa
+            </div>
+        </div>
+
+        <div class="vr6">
+            <div class="vr-blok">
+                <div id="mPa"></div> mPa
+            </div>
+        </div>
+    </div> </div>
+
+</div>
+</div>
+<script>
+
+
+  // output se na pocetku ne vidi te zahtijeva unos vrijednosti da bi postao vidljiv
+    document.getElementById("output").style.visibility="hidden";
+   document.getElementById("mInput").addEventListener("input", function(e) // funkcija vraca neku vrijednost e...
+   {
+    document.getElementById("output").style.visibility="visible"; //ovdje output postane visible kad je vrijednost unesena
+        var metri = e.target.value; // ...vrijednost e ce u ovom slucaju postati vrijednost metra koja je unesena
+        document.getElementById("cm").innerHTML=metri*100; // konvertovanje vrijednosti
+        document.getElementById("dm").innerHTML=metri*10;
+        document.getElementById("mm").innerHTML=metri*1000;
+        document.getElementById("km").innerHTML=metri/1000;
+        document.getElementById("jard").innerHTML=metri*1.094;
+        document.getElementById("stop").innerHTML=metri*3.281;
+        document.getElementById("mlj").innerHTML=metri/1609;
+        document.getElementById("palac").innerHTML=metri*39.3701;
+        document.getElementById("nano").innerHTML=metri*1000000000;
+   });
+
+
+
+   document.getElementById("output2").style.visibility="hidden";
+   document.getElementById("kgInput").addEventListener("input", function(f)
+   {
+    document.getElementById("output2").style.visibility="visible";
+        var kg = f.target.value;
+        document.getElementById("t").innerHTML=kg/1000;
+        document.getElementById("dag").innerHTML=kg*100;
+        document.getElementById("mg").innerHTML=kg*1000000;
+        document.getElementById("mikro").innerHTML=kg*1000000000;
+        document.getElementById("funt").innerHTML=kg*2.205;
+        document.getElementById("troyfunt").innerHTML=kg*2.7;
+        document.getElementById("oztroy").innerHTML=kg*32.151;
+        document.getElementById("oz").innerHTML=kg*35.274;
+        document.getElementById("stone").innerHTML=kg/6.35;
+        
+
+   })
+
+   document.getElementById("output3").style.visibility="hidden";
+   document.getElementById("vInput").addEventListener("input", function(g)
+   {
+    document.getElementById("output3").style.visibility="visible";
+        var m3 = g.target.value;
+        document.getElementById("dm3").innerHTML=m3*1000;
+        document.getElementById("cm3").innerHTML=m3*1000000;
+        document.getElementById("cl").innerHTML=m3*100000;
+        document.getElementById("l").innerHTML=m3*1000;
+        document.getElementById("floz").innerHTML=m3*33814;
+        document.getElementById("ml").innerHTML=m3*1000000;
+        document.getElementById("gl").innerHTML=m3*264;
+        document.getElementById("gl2").innerHTML=m3*220;
+        document.getElementById("st3").innerHTML=m3*35.315;
+        document.getElementById("p3").innerHTML=m3*61024;
+   })
+
+
+   document.getElementById("output4").style.visibility="hidden";
+   document.getElementById("m2Input").addEventListener("input", function(h)
+   {
+    document.getElementById("output4").style.visibility="visible";
+        var m2 = h.target.value;
+        document.getElementById("km2").innerHTML=m2/1000000;
+        document.getElementById("ha2").innerHTML=m2/10000;
+        document.getElementById("dm2").innerHTML=m2*100;
+        document.getElementById("cm2").innerHTML=m2*10000;
+        document.getElementById("ya2").innerHTML=m2*1.196;
+        document.getElementById("ft2").innerHTML=m2*10.764;
+        document.getElementById("sqin").innerHTML=m2*1550;
+        document.getElementById("mlj2").innerHTML=m2*0.00000038610215855;
+        document.getElementById("acr").innerHTML=m2/4047;
+   })
+
+   document.getElementById("output5").style.visibility="hidden";
+   document.getElementById("bInput").addEventListener("input", function(i)
+   {
+    document.getElementById("output5").style.visibility="visible";
+        var ms = i.target.value;
+        document.getElementById("kmh").innerHTML=ms*3.6;
+        document.getElementById("milja").innerHTML=ms*2.237;
+        document.getElementById("stopa").innerHTML=ms*3.281;
+        document.getElementById("cvor").innerHTML=ms*1.944;
+        document.getElementById("svj").innerHTML=ms/300000000;
+   })
+
+   document.getElementById("output6").style.visibility="hidden";
+   document.getElementById("pInput").addEventListener("input", function(j)
+   {
+    document.getElementById("output6").style.visibility="visible";
+        var pa = j.target.value;
+        document.getElementById("atm").innerHTML=pa/101325;
+        document.getElementById("bar").innerHTML=pa/100000;
+        document.getElementById("kPa").innerHTML=pa/1000;
+        document.getElementById("mPa").innerHTML=pa/1000000;
+   })
+
+    </script>
+</body>
+</html>

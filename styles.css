@@ -1,0 +1,193 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {background:url('https://wallpapertag.com/wallpaper/full/f/7/7/143274-free-computer-science-wallpaper-1920x1200.jpg');
+    color:#fff;
+    font-family: 'Karla', sans-serif; background-repeat:repeat;
+    background-size: stretch;height:100%;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap:10px;
+    justify-items:center;
+
+}
+.naslov {
+    color:#000;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:320px;
+    width:100%;
+    text-transform: uppercase;
+    background-size:cover;
+    transition:.7s;
+}
+
+.naslov:hover {
+    color:#fff;
+    transition:.7s;
+}
+
+.div {
+    display:block;
+}
+.glavni {
+    width:100%;
+   display:flex;
+   padding:10px;
+   flex-wrap:wrap;
+   flex-flow: row;
+   align-content: flex-start;
+   justify-content: center;
+   height:300px;
+   overflow-y:scroll;
+}
+
+#cm, #dm, #mm, #km, #jard, #stop, #mlj, #palac {
+    display:inline-block;
+    padding:3px;
+    margin:1px;
+}
+.vr-blok{
+    display:block;
+}
+
+#t, #dag, #mg, #mikro, #funt, #troyfunt, #oztroy, #oz, #stone {
+    display:inline-block;
+    padding:3px;
+    margin:1px;
+}
+.vr {
+    margin-left:-65px;
+}
+.vr2{
+    margin-left:-45px;
+}
+
+.vr3{
+    margin-left:-69px;
+}
+
+.vr4{
+    margin-left:-69px;
+}
+
+.vr5{
+    margin-left:-62px;
+}
+.vr6{
+    margin-left:-69px;
+}
+.vr-blok{
+    margin-top:6px;
+    background-color: #8fc3c1;
+    color:#000;
+}
+
+.form-control {
+    width:56%;
+}
+
+
+#dm3, #cm3, #l, #ml, #gl, #gl2, #st3, #p3, #cl, #floz {
+    display:inline-block;
+    padding:3px;
+    margin:1px;
+}
+
+
+#km2, #ha2, #dm2, #cm2, #ya2, #ft2, #sqin, #mlj2, #acr{
+    display:inline-block;
+    padding:3px;
+    margin:1px;
+}
+
+#output, #output2, #output3, #output4 {
+    width:90%;
+    margin-left:-10px;
+}
+
+#kmh, #milja, #stopa, #cvor, #svj {
+    display:inline-block;
+    padding:3px;
+    margin:1px;
+}
+
+#output5 {
+    width:96%;
+}
+
+#output6{
+    width:107%;
+}
+
+#atm, #bar, #kPa, #mPa {
+    display:inline-block;
+    padding:3px;
+    margin:1px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .naslov{
+        text-align: center;
+        padding-top:30px;
+       align-items: flex-start;
+       height:150px;
+    }
+    body{
+        height:100%;
+        background-repeat: repeat;
+        background:url('https://i.pinimg.com/736x/35/06/ae/3506aeba3b526fb5f038782187588805.jpg');
+        background-size:stretch;
+    }
+ .glavni{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left:45px;
+    
+ }.container {
+       
+    height:100%;
+} 
+
+.vr-blok{padding-left:45px;
+ }
+
+
+  }
+  
+
+  @media only screen and (min-width: 401px) and (max-width: 1024px) {
+    .naslov{
+        text-align: center;
+        padding-top:30px;
+       align-items: flex-start;
+       height:150px;
+    }
+    body{
+        height:100%;
+        background-repeat: repeat;
+        background:url('https://i.pinimg.com/736x/35/06/ae/3506aeba3b526fb5f038782187588805.jpg');
+        background-size:stretch;
+    }
+ .glavni{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left:45px;
+    overflow-y:scroll;
+    top:200px;
+ }
+
+.vr-blok{padding-left:45px;
+ }
+
+
+  }
